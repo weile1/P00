@@ -59,13 +59,13 @@ public class CalculatorTest {
 		assertEquals(actual, expected);
 	}
 	public void testdivide() {
-		int a = 50;
+		int a = 500;
 		int b = 5;
 	
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = 10;
+		int expected = 100;
 		assertEquals(actual, expected);
 	}
 }
